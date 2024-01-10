@@ -19,7 +19,7 @@ public class Main {
             if(max.isEmpty()){
                 System.out.println("No numbers.");
             } else {
-                System.out.println(max.get());
+                System.out.println(max.get().getLength());
             }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
